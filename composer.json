@@ -12,5 +12,13 @@
             "email": "bpayne@uci.edu"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/config": "~3.0",
+        "symfony/routing": "~3.0",
+        "symfony/yaml": "~3.0",
+        "symfony/http-foundation": "~3.0",
+        "symfony/dependency-injection": "~3.0",
+        "symfony/http-kernel": "~3.0",
+        "symfony/framework-bundle": "~3.0"
+    }
 }

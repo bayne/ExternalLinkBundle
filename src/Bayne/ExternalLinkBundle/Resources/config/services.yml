@@ -1,0 +1,8 @@
+services:
+    app.routing.help_loader:
+        class: Bayne\ExternalLinkBundle\Routing\ExternalLinkLoader
+        arguments:
+            - '@file_locator'
+            - '%kernel.root_dir%'
+        tags:
+            - { name: routing.loader }
