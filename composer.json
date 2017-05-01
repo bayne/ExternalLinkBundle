@@ -1,0 +1,10 @@
+{
+    "name": "bayne/external-link-bundle",
+    "authors": [
+        {
+            "name": "Brian Payne",
+            "email": "bpayne@uci.edu"
+        }
+    ],
+    "require": {}
+}
