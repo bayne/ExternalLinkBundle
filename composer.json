@@ -1,5 +1,11 @@
 {
     "name": "bayne/external-link-bundle",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "description": "A Symfony bundle for managing external links in your application",
     "authors": [
         {
             "name": "Brian Payne",
